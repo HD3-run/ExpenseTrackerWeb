@@ -14,5 +14,5 @@ app.use('/api/auth', authRoutes);
 app.use('/api/expenses', expenseRoutes);
 
 app.listen(3000, () => {
-  console.log('Server listening on port 3000');
+  console.log('Server listening on port 3001');
 });
